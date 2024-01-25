@@ -8,6 +8,10 @@ function validateForm() {
         console.log('Por favor, introduce un correo electrónico válido.');
         return false;
     }
+    else{
+        window.alert('Sesion iniciada')
+        return false;
+    }
 
    
 
